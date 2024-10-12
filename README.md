@@ -18,3 +18,13 @@ Development Details:
 *Designed Tractive System Active Light pcb and LED pcb layouts using Altium
 -Main circuit had to be in an electronics enclosure at the rear of the car and the LEDs of the circuit had to be at the front of the car, so two seperate but connected pcbs were designed.
 -To connect inputs and outputs for the two pcbs, microfit 3.0 connectors were used. Crimping and soldering ensued.
+
+Description of jpg images:
+"TSAL_Main_1.jpg"-Picture of main TSAL board assembled.
+"TSAL_Secondary_1.jpg"-Picture of LED board assembled.
+"TSAL_Altium_LED_PCB.jpg"-This is the LED PCB of the project. This board has the LEDs assembled on it and would be located in a separate location to the "Main" TSAL PCB. The board was made green and not red as it only contains low voltage from the car's low voltage battery.
+"TSAL_Altium_Main_PCB.jpg"-This is the TSAL Main PCB designed. It is the "Main" PCB of the project as it has all of the main components assembled on it. The secondary PCB has the LEDs assembled on it. Note: The color of this PCB was chosen as red since the team wanted to make it clear that high voltage would be present on this board and extra care would need to be considered when handling it.
+"TSAL_PspiceForTI_Simulation_High.jpg"-This is the simulation result when the TSAL has an input greater than 60 Vdc. The green curve represents the voltage the green LEDs would encounter when a p channel mosfet conducts. As a result they will not conduct. The red curve represents the voltage the Red LEDs would encounter when an n channel mosfet will conduct. As a result, they will flash with a frequency of 3 Hz.
+"TSAL_PspiceForTI_Schematic_High.jpg"-This is the schematic of the TSAL that was simulated on Pspice For TI. In the high state, the high voltage input is greater than 60 Vdc.
+"TSAL_PspiceForTI_Simulation_Low.jpg"-This is the simulation result when the TSAL has an input of less than 60 Vdc. The green curve represents the voltage the green LEDs would encounter when a p channel mosfet conducts. As a result they will light up solidly. The red curve represents the voltage the Red LEDs would encounter when an n channel mosfet will not conduct. As a result, they will not light up.
+"TSAL_PspiceForTI_Schematic_Low.jpg"-This is the schematic of the TSAL that was simulated on Pspice For TI. In the low state, the high voltage input is less than 60 Vdc.
