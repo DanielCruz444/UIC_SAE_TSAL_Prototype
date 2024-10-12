@@ -28,3 +28,5 @@ Description of jpg images:
 "TSAL_PspiceForTI_Schematic_High.jpg"-This is the schematic of the TSAL that was simulated on Pspice For TI. In the high state, the high voltage input is greater than 60 Vdc.
 "TSAL_PspiceForTI_Simulation_Low.jpg"-This is the simulation result when the TSAL has an input of less than 60 Vdc. The green curve represents the voltage the green LEDs would encounter when a p channel mosfet conducts. As a result they will light up solidly. The red curve represents the voltage the red LEDs would encounter when an n channel mosfet will not conduct. As a result, they will not light up. There is no voltage drop across the red LEDs.
 "TSAL_PspiceForTI_Schematic_Low.jpg"-This is the schematic of the TSAL that was simulated on Pspice For TI. In the low state, the high voltage input is less than 60 Vdc.
+"TSAL_Schematic_Main_Altium.jpg"-This is the schematic of the main TSAL board on Altium.
+"TSAL_Schematic_Secondary_Altium.jpg"-This is the schematic of the TSAL LED board on Altium.
